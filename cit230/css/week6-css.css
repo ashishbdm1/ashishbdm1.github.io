@@ -1,0 +1,41 @@
+body{
+                color:dimgray;
+                font-family: arial;
+                background: #F0F8FF;
+                }
+              
+            header{
+                color: royalblue;
+                text-align: center;
+                background: #FFFAF0;
+            }
+                
+            {background-color:fuchsia;}
+           	{}
+            {}
+            {}
+            {}
+            main img {}
+            {font-size:8px;margin:24px; color:#00FF00;} /*green*/
+            {;} /*black*/
+            {text-shadow:3px 3px 1px #777777;}
+            {}
+            {}
+            {}
+            {color:green;font-family:sans-serif;font-size:10px;text-align:center;}
+            {color: green;}
+            {}
+            {}
+            {}
+            {font-weight:bold; color:green;}
+
+            {color:rgb(0,0,255);} /*blue*/           
+            {color:purple;font-size:600%;}   
+            {font-size:6px; background-color:aqua}               
+            {font-weight:bold;}
+            .fs2em {font-size:2em;}
+            .fs2ex {font-size:2ex;}
+            .fs24px {font-size:24px;}
+            .fs120prcnt {font-size:120%;}
+            .fs24pt {font-size:24pt;}
+            .fsin {font-size:.5in;}	
