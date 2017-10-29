@@ -27,6 +27,7 @@
     
     body{
         font-family: sans-serif;
+        color: gray;
         
     }
         
@@ -49,22 +50,46 @@
     display: flex;
     width: 100%;
     height: 250px;
-    background-color: #617F8A;
+    background-color: whitesmoke;
+    
 }
 .flex-item-services {
     
-    background-color: #617F8A;
+    background-color: white;
+    background: white;
     width: 100%;
-    height: 200px;
+    height: 300px;
     margin: 10px;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
     text-align: center;
-
+    text-decoration: underline;
+    
    
 }
+
+.image1-services{
+    overflow: auto;
+    float: left;
+}
+
+.heading-services{
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    
+}
+.desc-services{
+    text-align: left;
+}
+
+
+.flex-content{
+    
+}
+
 /*.flex-item-services2 {
     
     background-color: #617F8A;
