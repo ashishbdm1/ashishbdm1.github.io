@@ -45,14 +45,7 @@
         color: #FFE4C4;
         
             }
-.flex-container-services {
-    display: -webkit-flex;
-    display: flex;
-    width: 100%;
-    height: 250px;
-    background-color: whitesmoke;
-    
-}
+
 .flex-item-services {
     
     background-color: white;
@@ -65,15 +58,36 @@
     margin-right: 0;
     margin-top: 0;
     text-align: center;
-    text-decoration: underline;
     
-   
 }
 
+/*
+.flex-item-services2 {
+    
+    background-color: white;
+    background: white;
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: center;
+    text-decoration: underline;  
+}
+*/
 .image1-services{
     overflow: auto;
     float: left;
 }
+
+/*
+.image2-services{
+    flex-direction: column;
+    float: left;
+}
+*/
 
 .heading-services{
     font-weight: bold;
@@ -81,46 +95,24 @@
     background-color: white;
     
 }
-.desc-services{
+/*
+.heading-pre-school-decorations{
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    
+}
+
+*/
+.desc-services1{
+    text-align: left;
+}
+/*.desc-services2{
     text-align: left;
 }
 
-
+*/
 .flex-content{
     
 }
 
-/*.flex-item-services2 {
-    
-    background-color: #617F8A;
-    width: 100%;
-    height: 200px;
-    margin: 10px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-}
-.flex-item-services3 {
-    
-    background-color: #617F8A;
-    width: 100%;
-    height: 200px;
-    margin: 10px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-}
-.flex-item-services4 {
-    
-    background-color: #617F8A;
-    width: 100%;
-    height: 200px;
-    margin: 10px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-}
-*/
