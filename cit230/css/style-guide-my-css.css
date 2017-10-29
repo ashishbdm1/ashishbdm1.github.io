@@ -1,0 +1,47 @@
+
+    a:hover {
+        background-color: #617F8A;
+    }
+    div {
+        background-color: #2C5463;
+        text-align: right;
+    }
+
+    div a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display: inline-block;
+    margin: auto;
+    }
+    
+    h1{
+     text-align: center;
+        color: grey;
+    }
+    
+    h2{
+        text-align: center;
+    }
+    
+    body{
+        font-family: sans-serif;
+        
+    }
+        
+    footer{
+        left: 0;
+        bottom: 0;
+        height: 50px;   
+        padding: 20px;
+        width: 100%;
+        background-color: #2C5463;
+        text-align: center;
+        }
+        
+    footer a{
+        color: #FFE4C4;
+        
+            }
+    
