@@ -62,8 +62,13 @@
     text-align: center;
     font-weight: bold;
 }
+.flex-item-history p{
+    font-weight: normal;
+}
+
 .history-desc{
     text-align: left;
+    flex-direction: 
 }
 
 .flex-item-services1{
