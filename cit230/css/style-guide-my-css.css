@@ -46,7 +46,7 @@
         
             }
 
-.flex-item-services{
+.flex-item-services1{
     background-color: white;
     background: white;
     width: 100%;
@@ -72,6 +72,18 @@
     margin-top: 0;
     text-align: center;
 }
+.flex-item-services3{
+    background-color: white;
+    background: white;
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: center;
+}
 
 .image1-services{
     overflow: auto;
@@ -79,6 +91,10 @@
 }
 
 .image2-services{
+     overflow: auto;
+    float: left;
+}
+.image3-services{
      overflow: auto;
     float: left;
 }
@@ -94,6 +110,12 @@
     background-color: white;
 }
 
+.heading-services3{
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+}
+
 .desc-services1{
     text-align: left;
 }
@@ -101,6 +123,9 @@
     text-align: left;
 }
 
+.desc-services3{
+    text-align: left;
+}
 .flex-content{
     
 }
