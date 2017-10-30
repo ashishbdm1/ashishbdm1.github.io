@@ -30,6 +30,21 @@
         color: gray;
         
     }
+.head {
+    text-align: right;
+}
+section{
+    text-align: center;
+    font-weight: bold;
+}
+section p{
+    font-weight: normal;
+}
+.sudershan-image{
+    text-align: left;
+    float: left;
+    background: white;
+}
         
     footer{
         left: 0;
