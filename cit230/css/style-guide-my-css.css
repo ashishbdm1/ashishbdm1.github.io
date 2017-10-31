@@ -27,12 +27,10 @@
     
     body{
         font-family: sans-serif;
-        color: gray;
-        
-    }
-.head {
-    text-align: right;
-}   
+        color: gray;    
+} 
+
+
 section{
     text-align: center;
     font-weight: bold; 
