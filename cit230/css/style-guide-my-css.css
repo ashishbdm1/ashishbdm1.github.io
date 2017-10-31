@@ -30,14 +30,31 @@
         color: gray;    
 } 
 
-
-section{
+.email-phone h5{
+    text-align: right;
+    margin: 0;
+}
+.section-service{
     text-align: center;
     font-weight: bold; 
     margin-left: 300px;
     margin-right: 300px;
     
 }
+fieldset{
+    text-align: right;
+    width: 200px;
+    color: #FFE4C4;
+}
+form{
+    width: 500px;
+    float: right;
+    margin-right: 50px;   
+}
+legend{
+    text-align: center;
+}
+
 section p{
     font-weight: normal;
     text-align: center;
@@ -204,9 +221,6 @@ li{
     text-align: left;
 }
 
-.flex-content{
-    
-}
 
 .history-image-div1{
     float: left;
