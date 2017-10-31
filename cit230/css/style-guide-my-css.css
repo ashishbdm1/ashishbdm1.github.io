@@ -32,7 +32,7 @@
     }
 .head {
     text-align: right;
-}
+}   
 section{
     text-align: center;
     font-weight: bold; 
@@ -52,13 +52,10 @@ section p{
     border-style: dotted;
     
 } 
-.section img{
-    border-style: none;
-}
     footer{
         left: 0;
         bottom: 0;
-        height: 50px;   
+        height: 150px;   
         padding: 20px;
         width: 100%;
         background-color: #2C5463;
@@ -69,8 +66,16 @@ section p{
         
     footer a{
         color: #FFE4C4;
-        
             }
+ul{
+    text-align: left;
+    list-style: none;
+    padding-left: 300px;
+}
+li{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}   
 
 .flex-container-history {
     display: flex;
