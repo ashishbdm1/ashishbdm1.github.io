@@ -35,17 +35,26 @@
 }
 section{
     text-align: center;
-    font-weight: bold;
+    font-weight: bold; 
+    margin-left: 300px;
+    margin-right: 300px;
+    
 }
 section p{
     font-weight: normal;
+    text-align: center;
+    
 }
+
 .sudershan-image{
-    text-align: left;
+    text-align: center;
     float: left;
-    background: white;
+    border-style: dotted;
+    
+} 
+.section img{
+    border-style: none;
 }
-        
     footer{
         left: 0;
         bottom: 0;
@@ -54,6 +63,8 @@ section p{
         width: 100%;
         background-color: #2C5463;
         text-align: center;
+        clear: both;
+        
         }
         
     footer a{
