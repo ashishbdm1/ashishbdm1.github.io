@@ -210,3 +210,57 @@ li{
     
 }
 
+.history-image-div1{
+    float: left;
+    overflow: hidden;
+    width: 320px;
+    padding: 0;
+    border: 2px solid gray;
+    margin: 0;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.history-image-div2{
+    float: left;
+    overflow:hidden;
+    width: 320px;
+    padding: 0;
+    border: 2px solid gray;
+    margin: 0;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-left: 5px;
+    background-color: white;
+}
+
+.history-image-div3{
+    float: left;
+    overflow:hidden;
+    width: 320px;
+    padding: 0;
+    border: 2px solid gray;
+    margin: 0;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+}
+
+.history-image-div4{
+    overflow:hidden;
+    width: 320px;
+    padding: 0;
+    border: 2px solid gray;
+    margin: 0;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: white;
+}
