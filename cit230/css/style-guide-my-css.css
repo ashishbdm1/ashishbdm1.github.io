@@ -23,15 +23,24 @@
     width: 100%;
     
 }
+.logo-image{
+    height: 78px;
+    width: 6%;
+    float: left;
+    margin: 10px;
+    border-color: #617F8A;
+    margin-left: 11px;
+}
 
 .aboutus-images{
     width: 30%;
     height: 300px;
 }
-    h1{
-     text-align: center;
-        color: grey;
-    }
+h1{
+text-align: center;
+    color: grey;
+    display: block;
+}
     
     h2{
         text-align: center;
