@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+ <link rel="stylesheet" href="../css/style-guide-my-css.css">
+
+<title>index.html</title>
+</head>
+   
+<body>
+    
+    
+    <section class="email-phone">
+        <h5>Email: ashishbdm1@gmail.com</h5>
+        <h5>Phone: 208-347-3588</h5>
+    </section>
+    
+     <div>
+    <a href="../index.html">Home</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="services-provided.html">Services</a>
+    <a href="testimonial.html">Testimonial</a>
+    <a href="contact-us.html">Contact Us</a>
+    <a href="../cit230-links.html">CIT230-links</a>
+          <img class="logo-image" src="../../indv-website/Images/LOGO.png" alt="Smiley face">
+    </div>
+    
+    <h3>Quick Links</h3>    
+    <a href="#about-us">About Us</a>
+    <a href="#see-our-work">See Our Work</a>
+    <a href="#services-provided">Services Provided by Yoogal arts</a>
+    
+    <dl id="about-us"></dl>
+    
+<h1>About Us</h1>
+    
+<p>Yoogal arts was officially founded in the year 1985 by Sudershan Pokhrel.
+Having participated in several businesses arts and advertisement, now he aims to exhibit his
+arts also in your schools, colleges with fascinating decoration needed to attract your
+students and preschool children. He also displayed his extra ordinary talents while he lived
+in India for a couple years and he was awarded as a second best artist in Northern India in
+the year 2005.
+    </p>
+    
+    
+    <dl id="see-our-work"></dl>
+    <h2>See Our work</h2>
+    
+    <script language="javascript" type="text/javascript">
+        
+        function caption(img){
+       // finds the element with an id="caption"
+       var ctrl = document.getElementById("caption");
+
+       // sets the text of the element = the alt property of the img
+       alert(img.alt);
+       ctrl.innerText = img.alt;
+
+       // sets the css display property = block (shows the element)
+       ctrl.style.display = "block";
+
+       // hides the defaultCaption element
+       document.getElementById("defaultCaption").style.display = "none";
+    }
+
+    // shows the defaultCaption and hides the caption div
+    function clearCaption() {
+       document.getElementById("defaultCaption").style.display = "block";
+       document.getElementById("caption").style.display = "none";
+    }
+    </script>
+    
+    <ul class="js-images">
+        <p>Click ON the images to See the pop up description</p>
+    <img class="aboutus-images" src="../../indv-website/Images/1.jpg" alt="School Gate" onClick="caption(this)" onmouseout="clearCaption()">
+    <img class="aboutus-images" src="../../indv-website/Images/2.jpg" alt="Pillar Art" onClick="caption(this)" onmouseout="clearCaption()">
+    <img class="aboutus-images" src="../../indv-website/Images/3.jpg" alt="Wall Painting" onClick="caption(this)" onmouseout="clearCaption()">
+    <img class="aboutus-images" src="../../indv-website/Images/3.jpg" alt="Wal painting" onClick="caption(this)" onmouseout="clearCaption()">
+    <img class="aboutus-images" src="../../indv-website/Images/4.jpg" alt="School Gate" onClick="caption(this)" onmouseout="clearCaption()">
+    <img class="aboutus-images" src="../../indv-website/Images/5.jpg" alt="Wall Painting" onClick="caption(this)" onmouseout="clearCaption()">
+    <img class="aboutus-images" src="../../indv-website/Images/6.jpg" alt="Wall Painting" onClick="caption(this)" onmouseout="clearCaption()">
+    <img class="aboutus-images" src="../../indv-website/Images/7.jpg" alt="Wall Painting" onClick="caption(this)" onmouseout="clearCaption()">
+    
+    </ul>
+    <dl id="services-provided"></dl>
+    <h2>Services Provided by Yoogal Arts</h2>
+    
+    <h3>Banner writing</h3>
+    <h3>Hoarding board</h3>
+    <h3>Pre-school decorations</h3>
+    <h3>Wall painting</h3>
+    <h3>Protrait</h3>
+
+  <a href="services-provided.html">Services Provided</a>
+    
+<footer>
+    
+    <form> 
+            <fieldset>
+                Name: <input type="text"><br>
+                Email: <input type="text"><br>
+                Date of birth: <input type="text">
+            </fieldset>
+        </form>
+    
+<ul>
+    <li><a href="aboutus.html">About Us</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="services-provided.html">Services</a></li>
+    <li><a href="testimonial.html">Testimonial</a></li>    
+</ul>
+      
+      
+    </footer>
+</body>
+</html> 
