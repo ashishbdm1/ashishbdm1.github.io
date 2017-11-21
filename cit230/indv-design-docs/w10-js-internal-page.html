@@ -35,14 +35,10 @@
     <dl id="about-us"></dl>
     
 <h1>About Us</h1>
-    
-<p>Yoogal arts was officially founded in the year 1985 by Sudershan Pokhrel.
-Having participated in several businesses arts and advertisement, now he aims to exhibit his
-arts also in your schools, colleges with fascinating decoration needed to attract your
-students and preschool children. He also displayed his extra ordinary talents while he lived
-in India for a couple years and he was awarded as a second best artist in Northern India in
-the year 2005.
-    </p>
+<p>This is a Javascript statement</p>
+<p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML = "Yoogal arts was officially founded in the year 1985 by Sudershan Pokhrel. Having participated in several businesses arts and advertisement, now he aims to exhibit hisarts also in your schools, colleges with fascinating decoration needed to attract your students and preschool children. He also displayed his extra ordinary talents while he lived in India for a couple years and he was awarded as a second best artist in Northern India in the year 2005.";</script> 
     
     
     <dl id="see-our-work"></dl>
@@ -84,6 +80,30 @@ the year 2005.
     <img class="aboutus-images" src="../../indv-website/Images/7.jpg" alt="Wall Painting" onClick="caption(this)" onmouseout="clearCaption()">
     
     </ul>
+    
+    
+<p>Click the "Try it" button to toggle between hiding and showing the DIV element:</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<div id="myDIV">
+This is my DIV element.
+</div>
+
+<p><b>Note:</b> The element will not take up any space when the display property set to "none".</p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+    
+    
     <dl id="services-provided"></dl>
     <h2>Services Provided by Yoogal Arts</h2>
     
