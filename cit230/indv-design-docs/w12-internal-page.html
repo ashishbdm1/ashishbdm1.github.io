@@ -8,9 +8,8 @@
     
 <title>Contact Us</title>
     
- 
-  <script>
-function allowDrop(ev) {
+    <script>
+ function allowDrop(ev) {
     ev.preventDefault();
 }
 
@@ -23,8 +22,10 @@ function drop(ev) {
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
 }
-
-    </script>  
+ 
+    </script>
+    
+    
 </head>
     
 
@@ -69,13 +70,21 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdrWz3qMs48Es8XA_lsdL_Qm2EPoXR0Bg&callback=myMap"></script>
 <br>
     <br>
+    
 <!--GOOGLE MAP API KEY
-
 AIzaSyBdrWz3qMs48Es8XA_lsdL_Qm2EPoXR0Bg-->
+    
+    
     <h3>Choose what you want</h3>
-<p>Now you can let us know what kind of design you ant and we will replicate the same too. Drag and drop the image you want to replicate in the box.</p>    
+<p>Now you can let us know what kind of design you ant and we will replicate the same too. Drag and drop the image you want to replicate in the box. Please choose only one.</p> 
     
     <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img id="drag1" src="../../indv-website/Images/2.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+   <img id="drag1" src="../../indv-website/Images/1.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+    <img id="drag1" src="../../indv-website/Images/4.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+    <img id="drag1" src="../../indv-website/Images/6.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+    
 <br>
     
     <footer>
