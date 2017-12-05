@@ -39,12 +39,15 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    
+        
     
 }
 #googleMap div{
     background-color: transparent;
     
+}
+#map div{
+    background-color: transparent; 
 }
 
 #div1 {
