@@ -8,8 +8,11 @@
 <title>index.html</title>
     
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
-<script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+<!--MY FIRST JQUERY-->
+    
+    <script> 
 $(document).ready(function(){
     $("button").click(function(){
         $("div1").animate({
@@ -18,12 +21,25 @@ $(document).ready(function(){
     });
 });
   
- 
+        <!--MY SECOND JQUERY-->
+        
+            x = 0;
+$(document).ready(function(){
+    $("div").scroll(function(){
+        $("span").text( x+= 1);
+    });
+});
+        
+ <!--MY THIRD JQUERY-->
+        
 $(document).ready(function(){
     $("#flip").click(function(){
         $("#panel").slideDown("slow");
     });
 });
+    
+
+    
  </script>
     
     <style> 
